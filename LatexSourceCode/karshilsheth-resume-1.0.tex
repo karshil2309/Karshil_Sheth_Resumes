@@ -1,0 +1,262 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Karshil}{Sheth}{ %\urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| %\href{http://fb.co/dd}{fb.co/dd}\\
+\href{mailto:karshilsheth@gmail.com}{karshilsheth@gmail.com} | (+91)9428431023 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Indus University}
+\descript{B.Tech in Computer Science \& Engineering}
+\location{June 2020 | Gandhinagar, India}
+\location{ Cum. GPA: 9.66 / 10.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/karshil2309}{\bf karshil2309} \\
+LinkedIn://  \href{https://www.linkedin.com/in/karshilsheth}{\bf KarshilSheth} \\
+StackOverflow://  \href{https://stackoverflow.com/users/7986351/karshil-sheth}{\bf karshil-sheth} \\
+Hackerrank://  \href{https://www.hackerrank.com/karshil_2309}{\bf karshil-2309} \\
+Quora://  \href{https://www.quora.com/Karshil-Sheth}{\bf Karshil-Sheth}\\
+Hackerearth://  \href{https://www.hackerearth.com/@karshil_2309}{\bf karshil-2309}\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Data Structures \& Algorithms\\
+Operating Systems \\
+Computer Networks \\
+Big Data Analytics \\
+Object Oriented Design Principles \\
+Software Lifecycle\\
+Unix Tools and Scripting \\
+System Design \\
+Data Analytics \\
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+%\location{Over 5000 lines:}
+Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
+PHP \textbullet{} Html5 \textbullet{} CSS3 \textbullet{} \LaTeX\ \\ 
+%\location{Over 1000 lines:}
+C \textbullet{} C++ \textbullet{} SQL \textbullet{} PL/SQL \\
+\location{Familiar:}
+Apache Solr \textbullet{} Spring-Boot \textbullet{} Android \textbullet{} Apache Camel \textbullet{} Docker \textbullet{} MySql \textbullet{} Influx DB \textbullet{} Adobe Photoshop \textbullet{} Apache Hive \textbullet{} Apache Kafka \textbullet{} AWS Services (S3, Ec2, SNS, SQS ) \textbullet{} Graphana \textbullet{} Natural Language Processing
+\textbullet{} Web Development 
+\sectionsep 
+
+\section{Projects}
+\subsection{}
+ \href{https://github.com/karshil2309/Pizza_delivery_WebApp}{\bf Pizza Delivery Web App}\\
+\href{https://github.com/karshil2309/BlockhainTask_Quillhash}{\bf Tic Tac Toe Solidity}\\ 
+\href{https://github.com/karshil2309/ArCoreAdornAr Core Adorn }{\bf Ar App }
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Gateway Group of Companies}
+\descript{| Software Engineer }
+\location{January 2020 - Present | Ahmedabad, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Responsible to design and implement RESTFUL and XML-based web-services.
+\item Work on review code as well as implementing coding standards. 
+\item Worked with Services team to create and deliever Product Poc.
+\item Understanding bugs and resolving same.
+\item Data extraction, crawling, scrapping, data mining, file system extraction (xml, pdf, docs).
+\item Giving Solutions for Search Engine of  online digtal library, with 30 millions revenue per year. 
+\item During project development, I provided proof of concepts, level of efforts and coordinate with project manager and product department.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Kody Technolab Pvt Ltd}
+\descript{| Software Engineering Intern }
+\location{June 2019 – July 2019 | Ahmedabad, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Prepared System Specification Document for the Project.
+\item Responsible for creating a video chat application.
+\item \href{https://github.com/karshil2309/Webrtc_Android_login}{\bf Project Code Github}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Optimus Dm}
+\descript{| Software Engineering Intern }
+\location{December 2018 – January 2019 | Ahmedabad, India}
+\begin{tightemize}
+\item Responsible to develop user interface for the Digital Marketing Workshop.
+\item Activities like user payment, registration, slot booking were monitored from Admin's Panel.
+\item Developed Single Page Application for a Fashion Model.
+\item \href{https://karshil2309.github.io/Website_Workshop/}{\bf Project Link}
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Rapidops Solutions Pvt ltd}
+\descript{| Web Developer Intern}
+\location{June 2018 – July 2018 |Ahmedabad, India}
+\begin{tightemize}
+\item Created Web Design Layout Templates using Abode Photoshop.
+\item Worked closely with Senior Developer to document the end to end process.
+\item Developed a static web page using Html5, CSS3.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{SilverWing Technologies Pvt Ltd}
+\descript{| Web Designer Intern}
+\location{August 2017 |Ahmedabad, India}
+\begin{tightemize}
+\item Creating Different games and Blogging website.
+\item Technologies: Html5, Css3, Bootstrap
+\item \href{https://github.com/karshil2309/Practice_FrontEnd}{\bf Github Link}
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Research}
+% \runsubsection{Cornell Robot Learning Lab}
+% \descript{| Researcher}
+% \location{Jan 2014 – Jan 2015 | Ithaca, NY}
+% Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+% \sectionsep
+
+% \runsubsection{Cornell Phonetics Lab}
+% \descript{| Head Undergraduate Researcher}
+% \location{Mar 2012 – May 2013 | Ithaca, NY}
+% Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2020	  &State    & Participated in SSIP Hackathon organized By Gujarat Government\\
+2019	  &2\textsuperscript{nd}/50   & SPARX of Instincts’19 ( Coding Competition ) \\
+2017	     & International  & \href{https://www.credly.com/badges/f9998842-1285-4c07-a515-8f45c765866c/linked_in_profile}{\bf Oracle Certified Java Programmer}\\
+2017     & A+ Grade  & C Certified C-DAC GIST PACE by Government of India  \\
+2012     & A Grade  & Elementary Intermediate Drawing Examination\\
+2010     & 2\textsuperscript{nd} & International Mathematics Olympiad (IMO) \\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Publications} 
+% \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}

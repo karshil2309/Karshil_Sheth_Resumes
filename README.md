@@ -2,7 +2,6 @@
 My Resume For your Reference
 
 
-# Security Policy
 
 ## Supported Versions
 
@@ -11,9 +10,9 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0.0   | All Resumes between 1-1.5 yrs exp|
-| 2.0.0   | All Resumes between 1.5-3 yrs exp|
-| 3.0.    | All Resumes between 3+ yrs exp|
+| 1.0  | All Resumes between 1-1.5 yrs exp|
+| 2.0  | All Resumes between 1.5-3 yrs exp|
+| 3.0  | All Resumes between 3+ yrs exp|
 
 ## Reporting a Vulnerability
 Your Smart Judgment 😊 is neccessary for Improvement.

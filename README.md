@@ -1,6 +1,7 @@
 # Karshil_Sheth_Resumes
 My Resume For your Reference
 
+Can more Dig into : 🤷‍♀️ https://ocs.fas.harvard.edu/files/ocs/files/undergrad_resumes_and_cover_letters.pdf?m=1598037165
 
 
 ## Supported Versions

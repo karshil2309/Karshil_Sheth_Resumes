@@ -3,6 +3,13 @@ My Resume For your Reference
 
 Can more Dig into : 🤷‍♀️ https://ocs.fas.harvard.edu/files/ocs/files/undergrad_resumes_and_cover_letters.pdf?m=1598037165
 
+--> https://www.jobscan.co/dashboard
+--> https://www.cakeresume.com/welcome
+--> https://app.resumegenius.com/resume-builder/getting-started
+--> https://www.myperfectresume.com/
+--> https://novoresume.com/
+--> https://zety.com/
+
 
 ## Supported Versions
 

@@ -1,0 +1,214 @@
+%-------------------------
+% Resume in Latex
+% Author : Karshil Sheth
+% Based off of: https://github.com/sb2nov/resume
+% Template by: Jake Gutierrez
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Karshil Sheth} \\ \vspace{3pt}
+    \small \raisebox{-0.1\height}\faPhone\ +917043384075 ~ \href{mailto:karshilsheth@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ karshilsheth@gmail.com} ~ 
+    \href{https://linktr.ee/karshilsheth}{\raisebox{-0.2\height}\faLink\ linktr.ee/karshilsheth}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------SUMMARY-----------
+% \section{Summary}
+%   \resumeSubHeadingListStart
+%     \small{\item{
+%      \textbf{Senior Software Engineer} with 5+ years of experience architecting scalable microservices and distributed systems using \textbf{Java Spring Boot} and \textbf{React.js}. Proven track record of leading backend architecture for enterprise security products (Splunk) and collaborating with global stakeholders (Google) to deliver high-performance solutions. Expert in optimizing CI/CD workflows, reducing time-to-market by \textbf{96\%}, and mentoring teams in secure coding practices. Adept at working in remote, cross-functional environments.
+%     }}
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Crest Data}{Nov 2023 -- Present}
+      {Software Engineer E3}{Full-time}
+      \resumeItemListStart
+        \resumeItem{Led backend architecture for \textbf{Splunk Enterprise Security} using \textbf{Java Spring Boot}, reducing release time-to-market by \textbf{96\%} (1 day $\rightarrow$ 1 hour) through advanced CI/CD automation and process optimization.}
+        \resumeItem{Designed and deployed a \textbf{Full Stack AI Financial Assistant} using \textbf{React.js} and \textbf{Microservices}, integrating LLMs to process financial documents and deliver real-time market sentiment analysis.}
+        \resumeItem{Collaborated with \textbf{Google} stakeholders to architect the \textbf{Model Armor} bulk sanitization CLI and analytics dashboard, achieving \textbf{5x parallel processing performance} via co-routines.}
+        \resumeItem{Automated integration test cases using Python and GitLab CI, reducing manual TechOps effort by \textbf{87\%} (8+ hours $\rightarrow$ 1 hour) per release cycle.}
+        \resumeItem{Developed robust RESTful APIs with Spring Boot and modular architecture, facilitating seamless communication for Splunk third-party applications and high-volume data processing.}
+        \resumeItem{Developed comprehensive analytics dashboards to visualize precision/recall metrics and latency, empowering stakeholders with actionable product insights.}
+        \resumeItem{Optimized system scalability and security by implementing \textbf{Spring Security} and custom cloud monitoring (AWS/Azure), reducing pipeline flakiness by \textbf{20\%} and ensuring enterprise compliance.}
+        \resumeItem{Mentored a team of developers on \textbf{microservices design patterns} and secure coding practices, conducting technical workshops that improved team velocity and knowledge retention.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Openbet India Pvt Ltd (Endeavor)}{Oct 2022 -- Nov 2023}
+      {Software Engineer L2}{Full-time}
+      \resumeItemListStart
+        \resumeItem{Developed high-performance RESTful microservices using Java/Spring Boot and ProtoBuff, optimizing platform response efficiency by \textbf{30\%} and directly maximizing product revenue by \textbf{20\%}.}
+        \resumeItem{Engineered a low-latency real-time odds calculation engine with Java concurrency, \textbf{slashing data processing latency by 40\%} to support instant live-betting outcomes.}
+        \resumeItem{Established robust system observability using Spring Actuator and proactive alerting, \textbf{reducing production downtime by 20\%} while ensuring strict betting industry compliance.}
+        \resumeItem{Led full-stack architectural design and code governance, implementing security best practices that minimized vulnerability risks and minimized platform technical debt.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Surekha Technologies Pvt Ltd}{Feb 2022 -- Oct 2022}
+      {Software Engineer}{Full-time}
+      \resumeItemListStart
+        \resumeItem{Optimized Liferay service layers and 1GB+ data ingestion algorithms using Custom SQL/DynamicQuery, \textbf{reducing development time by 25\%} for critical backend flows.}
+        \resumeItem{Architected centralized observability via containerized ELFK stacks and secured RESTful endpoints, streamlining debugging and enforcing strict banking compliance standards.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {AutoFacets LLP (Gateway Group of Companies)}{Jan 2020 -- Jan 2022}
+      {Software Engineer}{Full-time}
+      \resumeItemListStart
+        \resumeItem{Provided technical guidance for a backend team managing an Online Digital Library generating \textbf{\$30M annual revenue}, while overseeing API lifecycle management and deployment across \textbf{1000+ environments}.}
+        \resumeItem{Developed core features for the API Portal System and administered Kanban dashboards to stream operations, while executing complex data extraction, crawling, and scraping tasks across multiple formats (XML, PDF, DOCX).}
+        \resumeItem{Resolved critical client issues related to token validation and server configuration, and engineered comprehensive design documentation while leading client consultations in Agile environments.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+ \vspace{-10pt}
+
+%-----------TECHNICAL SKILLS & Awards -----------
+\section{Technical Skills / Awards }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages: }{Java, Python, Go, JavaScript (React.js)} \\
+     \textbf{Frameworks: }{Spring Boot, Spring Security, Spring Framework, Hibernate} \\
+     \textbf{Cloud \& DevOps: }{AWS, GCP, Docker, GitLab CI/CD} \\
+     \textbf{APIs \& Architecture: }{RESTful APIs, Microservices, gRPC/Protobuf, Event-Driven Architecture (Kafka)} \\
+    }}
+
+    \textbf{\href{https://www.credly.com/badges/f9998842-1285-4c07-a515-8f45c765866c/linked_in_profile}{Oracle Certified Java Professional}} -- May 2018
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indus University}{Gandhinagar, India}
+      {Bachelor of Technology - Computer Science Engineering ~ GPA: 9.66/10}{Sep 2016 -- Jun 2020}
+  \resumeSubHeadingListEnd
+  \vspace{-10pt}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Relevant Coursework: }{Operating Systems, Data Structures \& Algorithms, Computer Networks, Database Systems, System Design}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}

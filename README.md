@@ -102,6 +102,16 @@ Karshil_Sheth_Resumes/
 
 </details>
 
+<details>
+<summary><b>Click to expand - Vietnam Job Portals</b></summary>
+
+- [ITviec](https://itviec.com/) - IT jobs in Vietnam
+- [TopCV](https://www.topcv.vn/) - Recruitment platform in Vietnam
+- [VietnamWorks](https://www.vietnamworks.com/) - Leading job site in Vietnam
+- [Navigos Group](https://www.navigosgroup.com/) - Recruitment & HR services
+
+</details>
+
 ### 💰 Freelance Platforms
 
 <details>
